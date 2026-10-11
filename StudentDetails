@@ -1,0 +1,49 @@
+#include<stdio.h>
+void studentDetails(void);
+void studentDetails(void)
+{
+    char studentName[20];
+    int rollnumber;
+    char branch[15];
+    char collegeName[25];
+    printf("Enter studentName\n");
+    scanf("%s", studentName);
+    printf("Enter student rollnumber\n");
+    scanf("%d", &rollnumber);
+    printf("Enter branch\n");
+    scanf("%s",branch);
+    printf("Enter collegeName\n");
+    scanf("%s", collegeName);
+    
+    printf("\n Student Details\n");
+    printf("studentName=%s\n",studentName);
+    printf("rollnumber=%d\n",rollnumber);
+    printf("branch=%s\n",branch);
+    printf("collegeName=%s\n", collegeName);
+    
+}
+int main()
+{
+    studentDetails();
+    return 0;
+}
+
+
+
+
+
+Output:
+Enter StudentName
+Skokila
+Enter rollnumber
+5
+Enter branch
+CSE
+Enter collegeName
+SITAMS
+
+Student Details
+studentname=skokila
+rollnumber=5
+branch=CSE
+collegeName=SITAMS
