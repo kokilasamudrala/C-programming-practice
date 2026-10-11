@@ -1,0 +1,25 @@
+#include<stdio.h>
+void calculateFactorial(void);
+void calculateFactorial(void)
+{
+    int x, fact=1;
+    printf("Enter x value:\n");
+    scanf("%d", &x);
+    
+    for(int i=1;i<=x;i++)
+    {
+        fact=fact*i;
+    }
+    printf("Factorial of %d is %d",x,fact);
+}
+int main()
+{
+    calculateFactorial();
+    return 0;
+}
+
+
+Output:
+Enter x value:
+5
+Factorial of 5 is 120
