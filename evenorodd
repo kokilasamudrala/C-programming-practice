@@ -1,0 +1,23 @@
+#include<stdio.h>
+void checkEvenOrOdd(void);
+void checkEvenOrOdd(void)
+{
+    int a;
+    printf("Enter a value:\n");
+    scanf("%d", &a);
+    if(a%2==0)
+    printf("%d is an even number",a);
+    else
+    printf("%d is an odd number",a);
+    
+}
+int main()
+{
+    checkEvenOrOdd();
+    return 0;
+}
+
+
+
+Output:
+5 is an odd number
