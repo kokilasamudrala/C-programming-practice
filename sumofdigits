@@ -1,0 +1,28 @@
+#include<stdio.h>
+void sumOfDigits(void);
+void sumOfDigits(void)
+{
+    int n,digit,sum=0;
+    printf("Enter n number:\n");
+    scanf("%d", &n);
+    
+     while (n > 0)
+    {
+        digit = n % 10;
+        sum = sum + digit;
+        n = n / 10;
+    }
+
+    printf("Sum of digits = %d\n", sum);
+}
+int main()
+{
+  sumOfDigits();
+    return 0;
+}
+
+
+Output:
+Enter n number:
+12345
+Sum of Digits=15
