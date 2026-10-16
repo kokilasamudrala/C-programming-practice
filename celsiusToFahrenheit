@@ -1,0 +1,28 @@
+#include<stdio.h>
+void celsiusToFahrenheit(void);
+void celsiusToFahrenheit(void)
+{
+   
+  int c;
+  float f;
+  printf("Enter c value:\n");
+  scanf("%d", &c);
+
+  f=(c*9/5)+32;
+  
+  printf("Fahrenheit is %f", f);
+  
+   
+}
+int main()
+{
+     celsiusToFahrenheit();
+    return 0;
+}
+
+
+
+Output:
+Enter c value:
+35
+Fahrenheit is 95.000000
