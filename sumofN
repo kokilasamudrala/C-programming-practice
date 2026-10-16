@@ -1,0 +1,24 @@
+#include<stdio.h>
+void sumOfN(void);
+void sumOfN(void)
+{
+    int n,sum=0;
+    printf("Enter n value:\n");
+    scanf("%d", &n);
+    for(int i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    printf("sum of the first N natural numbers is %d", sum);
+}
+int main()
+{
+    sumOfN();
+    return 0;
+}
+
+
+Output:
+Enter n value:
+5
+sum of the first N natural numbers is 15
