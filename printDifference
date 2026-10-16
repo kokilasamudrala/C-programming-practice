@@ -1,0 +1,27 @@
+#include<stdio.h>
+void printDifference(int a, int b);
+void printDifference(int a, int b)
+{
+    int sub;
+    sub=a-b;
+    
+    printf("Difference of two numbers is %d",sub);
+    
+}
+
+int main()
+{
+    int a,b;
+    printf("Enter two value:\n");
+    scanf("%d%d", &a,&b);
+    printDifference(a,b);
+    return 0;
+}
+
+
+
+Output:
+enter two values:
+10
+2
+Difference of two numbers is 8
