@@ -1,0 +1,14 @@
+#include<stdio.h>
+void greet(void);
+void greet(void)
+{
+    printf("Welcome");
+    
+}
+int main()
+{
+    greet();
+}
+
+
+Output: Welcome
