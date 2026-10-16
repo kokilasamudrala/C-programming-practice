@@ -1,0 +1,25 @@
+#include<stdio.h>
+void printSquare(int n);
+void printSquare(int n)
+{
+    int square;
+    square=n*n;
+    
+    printf("Square of %d is %d",n,square);
+    
+}
+
+int main()
+{
+    int n;
+    printf("Enter n value:\n");
+    scanf("%d", &n);
+    printSquare(n);
+    return 0;
+}
+
+
+Output:
+Enter n value:
+5
+Square of 5 is 25
