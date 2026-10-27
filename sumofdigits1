@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+ int sum(int a);
+ int sum(int a)
+ {
+    int rem,sum=0;
+    while(a>0)
+     {
+         rem=a%10;
+         sum=sum+rem;
+         a=a/10;
+         
+     }
+     return(sum);
+     
+ }
+ int main()
+ {
+     int a;
+     int res;
+     
+     printf("Enter a value:\n");
+     scanf("%d",&a);
+     
+     res=sum(a);
+     
+     printf("Sum=%d",res);
+     
+     return 0;
+ }
+
+
+
+Output:
+Enter a value:
+123
+Sum=6
